@@ -1,0 +1,145 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="org.jitsi.meet.sdk" >
+5
+6    <uses-sdk android:minSdkVersion="24" />
+7
+8    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+8-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/debug/AndroidManifest.xml:3:5-77
+8-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/debug/AndroidManifest.xml:3:22-75
+9    <!-- XXX ACCESS_NETWORK_STATE is required by WebRTC. -->
+10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+10-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:6:5-79
+10-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:6:22-76
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:7:5-68
+11-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:7:22-65
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:8:5-65
+12-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:8:22-62
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:9:5-67
+13-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:9:22-64
+14    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+14-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:10:5-75
+14-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:10:22-72
+15    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+15-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:11:5-80
+15-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:11:22-77
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:12:5-71
+16-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:12:22-68
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:13:5-68
+17-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:13:22-65
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:14:5-76
+18-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:14:22-73
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:15:5-77
+19-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:15:22-74
+20
+21    <uses-feature
+21-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:17:5-19:35
+22        android:glEsVersion="0x00020000"
+22-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:18:9-41
+23        android:required="true" />
+23-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:19:9-32
+24    <uses-feature
+24-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:20:5-22:36
+25        android:name="android.hardware.camera"
+25-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:21:9-47
+26        android:required="false" />
+26-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:22:9-33
+27    <uses-feature
+27-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:23:5-25:36
+28        android:name="android.hardware.camera.autofocus"
+28-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:24:9-57
+29        android:required="false" />
+29-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:25:9-33
+30
+31    <application
+31-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:27:5-67:19
+32        android:allowBackup="true"
+32-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:28:9-35
+33        android:label="@string/app_name"
+33-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:29:9-41
+34        android:supportsRtl="true"
+34-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:30:9-35
+35        android:usesCleartextTraffic="true" >
+35-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/debug/AndroidManifest.xml:5:18-53
+36        <activity
+36-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/debug/AndroidManifest.xml:6:9-110
+37            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+37-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/debug/AndroidManifest.xml:6:19-83
+38            android:exported="false" />
+38-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/debug/AndroidManifest.xml:6:84-108
+39        <activity
+39-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:31:9-38:57
+40            android:name="org.jitsi.meet.sdk.JitsiMeetActivity"
+40-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:32:13-46
+41            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+41-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:33:13-122
+42            android:launchMode="singleTask"
+42-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:34:13-44
+43            android:resizeableActivity="true"
+43-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:36:13-46
+44            android:supportsPictureInPicture="true"
+44-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:37:13-52
+45            android:theme="@style/JitsiMeetActivityStyle"
+45-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:35:13-58
+46            android:windowSoftInputMode="adjustResize" />
+46-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:38:13-55
+47
+48        <service
+48-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:40:9-47:19
+49            android:name="org.jitsi.meet.sdk.ConnectionService"
+49-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:41:13-46
+50            android:exported="true"
+50-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:43:13-36
+51            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" >
+51-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:42:13-84
+52            <intent-filter>
+52-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:44:13-46:29
+53                <action android:name="android.telecom.ConnectionService" />
+53-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:45:17-76
+53-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:45:25-73
+54            </intent-filter>
+55        </service>
+56        <service
+56-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:49:9-51:63
+57            android:name="org.jitsi.meet.sdk.JitsiMeetOngoingConferenceService"
+57-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:50:13-80
+58            android:foregroundServiceType="mediaProjection" />
+58-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:51:13-60
+59
+60        <provider
+60-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:53:9-58:20
+61            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+61-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:54:13-83
+62            android:authorities="${applicationId}.fileprovider"
+62-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:55:13-64
+63            android:enabled="false"
+63-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:56:13-36
+64            tools:replace="android:authorities" >
+64-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:57:13-48
+65        </provider>
+66        <provider
+66-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:59:9-65:20
+67            android:name="androidx.startup.InitializationProvider"
+67-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:60:13-67
+68            android:authorities="${applicationId}.androidx-startup"
+68-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:61:13-68
+69            android:exported="false" >
+69-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:62:13-37
+70            <meta-data
+70-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:63:13-64:52
+71                android:name="org.jitsi.meet.sdk.JitsiInitializer"
+71-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:63:25-75
+72                android:value="androidx.startup" />
+72-->/Users/linboyan/Desktop/jitsi-meet-android/android/sdk/src/main/AndroidManifest.xml:64:17-49
+73        </provider>
+74    </application>
+75
+76</manifest>
