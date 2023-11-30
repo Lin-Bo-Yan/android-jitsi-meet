@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 // Crashlytics integration is done as part of Firebase now, so it gets
 // automagically activated with google-services.json
@@ -21,7 +21,7 @@ android {
     }
 
     defaultConfig {
-        applicationId 'org.jitsi.meet'
+        //applicationId 'org.jitsi.meet'
         versionCode vcode
         versionName project.appVersion
 
@@ -121,6 +121,7 @@ gradle.projectsEvaluated {
             </intent-filter>
           </activity>"""
 
+        /*
         android.applicationVariants.all { variant ->
             variant.outputs.each { output ->
                 output.getProcessManifestProvider().get().doLast {
@@ -134,8 +135,10 @@ gradle.projectsEvaluated {
                 }
             }
         }
+        */
     }
 
+    /*
     // Run React packager
     android.applicationVariants.all { variant ->
         def targetName = variant.name.capitalize()
@@ -169,7 +172,7 @@ gradle.projectsEvaluated {
 
         packageTask.dependsOn(currentRunPackagerTask)
     }
-
+    */
 }
 
 if (googleServicesEnabled) {
